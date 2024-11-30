@@ -1,0 +1,58 @@
+/* General styles for the navbar */
+.navbar-custom {
+    background-color: #F5F5F5; /* Navbar background */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the navbar */
+}
+
+/* Brand */
+.navbar-custom .navbar-brand {
+    font-size: 2rem !important;
+    color: black !important;
+}
+
+/* Links */
+.navbar-custom .nav-link-custom {
+    color: black !important;
+    padding: 5px 5px !important;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* .navbar-custom .nav-link-custom:hover {
+    color: #CD5C5C !important;
+} */
+
+/* Toggle Button Customization */
+.custom-toggler {
+    border-color:  white!important; /* Black border for the toggle button */
+    background-color: white !important; /* Black background for the toggle button */
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-color: white !important; /* Black toggle icon */
+}
+
+/* Mobile view adjustments */
+@media (max-width: 992px) {
+    .navbar-custom .navbar-nav {
+        text-align: left;
+    }
+
+    .navbar-custom .nav-link-custom {
+        margin: 5px 0;
+    }
+}
+
+/* Laptop/Desktop view adjustments */
+@media (min-width: 993px) {
+    .navbar-custom .navbar-nav {
+        text-align: right;
+    }
+
+    .navbar-custom .nav-link-custom {
+        margin: 0 15px; /* Add horizontal spacing between nav items */
+    }
+}

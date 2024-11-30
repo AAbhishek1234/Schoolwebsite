@@ -1,0 +1,80 @@
+/* Container styling */
+.student-club-container {
+  font-family: 'Arial', sans-serif;
+  color: black !important;
+}
+
+/* Image styling */
+.student-club-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Title styling */
+.student-club-title {
+  font-size: 3rem !important;
+  font-weight: bold;
+  color: #212529;
+  margin-bottom: 1rem;
+}
+
+/* Description styling */
+.student-club-description {
+  font-size: 1.4rem;
+  color: black !important;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+/* Button styling - with custom styles */
+.student-club-btn {
+  font-size: 1.2rem !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 50px !important;  /* Add border-radius for rounded button */
+  font-weight: 600;
+  background-color: black !important;
+  border: 3px solid #00d7c3 !important;
+  color: #00d7c3 !important;
+  transition: all .15s ease-in-out;
+}
+
+/* Button hover effect */
+.student-club-btn:hover {
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3 !important;
+  border: 3px solid #00d7c3 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .student-club-title {
+    font-size: 2rem !important;
+  }
+
+  .student-club-description {
+    font-size: 1.2rem !important;
+  }
+
+  .student-club-btn {
+    font-size: 1.2rem !important;
+    padding:1.2rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .student-club-title {
+    font-size: 2rem !important; /* Even smaller font size for mobile */
+  }
+
+  .student-club-description {
+    font-size: 1.5rem !important;
+  }
+
+  .student-club-btn {
+    font-size: 1.rem !important;
+    padding: 0.5rem 1rem;
+    width:12rem !important;
+    margin-left: 5.5rem !important;
+
+    
+  }
+}

@@ -1,0 +1,66 @@
+/* Base styles for Learning Outcomes */
+.learning-outcomes {
+    margin-top: 2rem; /* Default spacing for desktop view */
+    padding-top: 2rem; /* Default padding */
+}
+
+/* Mobile and smaller screens */
+@media (max-width: 576px) {
+    .learning-outcomes {
+        margin-top: -4rem !important; /* Reduce gap between this and the previous component */
+        padding-top: 0.5rem; /* Optional: reduce internal spacing */
+    }
+}
+
+
+
+
+
+
+.video-box {
+    width: 100%;
+    max-width: 300px; /* Optional: Control box size */
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .video-box h5.video-title {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .video-box p.video-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  @media (max-width: 576px) {
+    .video-box {
+      max-width: 100%;
+    }
+
+  }.learning-title {
+    font-size: 3rem;
+    margin-top: -3rem;
+    color: #333; /* Ensure it's visible */
+  }
+  
+  /* Tablet and smaller screens */
+  @media (max-width: 768px) {
+    .learning-title {
+      font-size: 2rem; /* Reduced size for tablets */
+      margin-top: -2rem; /* Adjust margin for better alignment */
+    }
+  }
+  
+  /* Mobile and smaller screens */
+  @media (max-width: 576px) {
+    .learning-title {
+      font-size: 2.2rem !important; /* Further reduce size for smaller screens */
+      margin-top: -1rem !important; /* Ensure proper spacing */
+    }
+  }
+  

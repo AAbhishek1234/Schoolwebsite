@@ -1,0 +1,142 @@
+/* Global reset to avoid padding/margin issues */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent overflow globally */
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow across the whole document */
+}
+
+/* Ensuring carousel container stays inside screen */
+.testimonial-carousel-container {
+  background-color: #f3f6f9 !important;
+  padding: 40px 0;
+  border-radius: 12px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: -3rem;
+  width: 100%; /* Ensure full width */
+  max-width: 100%; /* Avoid overflow */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Ensuring carousel respects full screen without overflow */
+.testimonial-carousel-custom {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Prevent overflow on testimonial cards */
+.testimonial-card-custom {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Ensure cards fit within the container */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  overflow: hidden; /* Hide any overflow within cards */
+}
+
+/* Carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 4%;
+}
+
+.carousel-control-prev {
+  margin-left: -15px;
+}
+
+.carousel-control-next {
+  margin-right: -15px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .testimonial-carousel-container {
+    padding: 30px 10px;
+  }
+
+  .testimonial-card-custom {
+    padding: 15px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+
+  .testimonial-carousel-custom {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Tighten up spacing in mobile */
+  .testimonial-carousel-container {
+    padding: 20px 5px;
+  }
+
+  .testimonial-card-custom {
+    padding: 10px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 12%;
+  }
+
+  /* Make sure no overflow occurs on carousel items */
+  .testimonial-carousel-custom {
+    overflow-x: hidden; /* Hide overflow */
+  }
+
+  .testimonial-carousel-custom .carousel-inner {
+    display: block;
+    width: 100%;
+    overflow-x: hidden; /* Prevent overflow */
+  }
+
+  .testimonial-carousel-custom .carousel-item {
+    width: 100%;
+    flex: 0 0 auto; /* Prevent overflow */
+  }
+
+  /* Adjust h1 size */
+  h1 {
+    font-size: 2rem !important;
+    word-wrap: break-word; /* Ensure proper wrapping */
+    max-width: 100%;
+  }
+}
+
+/* Fix for carousel items to prevent flexbox causing overflow */
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow: hidden; /* Hide overflow */
+}
+
+.carousel-item {
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center; /* Ensure content is centered */
+}
+
+/* Carousel item image handling */
+.carousel-item img {
+  width: 100%; /* Full width images */
+  height: auto;
+  max-width: 100%; /* Ensure no overflow */
+}

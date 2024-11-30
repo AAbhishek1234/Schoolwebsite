@@ -1,0 +1,78 @@
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    /* Adjust the container padding for mobile */
+    .container-fluid {
+      padding: 2rem 1rem;
+      margin-top: 3rem !important;
+    }
+  
+    /* Center-align the text for smaller screens */
+    .text-center.text-md-start {
+      text-align: center !important;
+    }
+  
+    /* Ensure the correct order of elements in mobile */
+    .mobile-flex {
+      display: flex;
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center-align all elements */
+    }
+  
+    /* Adjust heading font sizes */
+    h1.fw-bold {
+      font-size: 1.9rem;
+      margin-top: 2rem !important;
+      
+    }
+  
+    h2.fw-light, .secondary-h2 {
+      font-size: 1.7rem;
+      margin-top: 0.5rem !important; /* Spacing between elements */
+    }
+  
+    /* Adjust image styles */
+    .position-relative img {
+      width: 90%; /* Reduce image size */
+      margin: 1rem auto; /* Center the image with margin */
+    }
+  
+    /* Style the button for smaller screens */
+    button.btn {
+      width: 100%;
+      font-size: 1.2rem;
+      padding: 0.8rem;
+      margin-top: 1.5rem;
+    }
+  }
+  
+
+
+
+
+
+  /* Hover Effect for the Image */
+.hero-image-container {
+  position: relative;
+  overflow: hidden; /* Ensures the image stays within bounds during scaling */
+}
+
+.hero-image-container img {
+  transition: transform 0.4s ease, filter 0.4s ease; /* Smooth scaling and filter effect */
+}
+
+.hero-image-container img:hover {
+  transform: scale(1.1); /* Slightly zooms in the image */
+  filter: brightness(1.2) contrast(1.1); /* Enhances brightness and contrast */
+  border-radius: 12px; /* Makes the hover feel smoother */
+}
+
+
+.hover-button:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2) contrast(1.1); 
+  transition: transform 0.3s ease;
+}
+
+.hover-button {
+  transition: transform 0.3s ease;
+}

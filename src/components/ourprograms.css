@@ -1,0 +1,74 @@
+/* Container Styles */
+.career-container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title and Subtitle Styles */
+  .career-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black !important;
+    margin-bottom: 0.5rem;
+  }
+  
+  .career-subtitle {
+    font-size: 1.3rem;
+    color: black;
+  }
+  
+  /* Card Styles */
+  .career-card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .career-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color:#E6E6FA;
+  }
+  
+  /* Icon Styles */
+  .career-icon {
+    font-size: 3rem;
+    color: #5a67d8; /* Replace with a color of your choice */
+  }
+  
+  /* Card Title */
+  .career-card-title {
+    font-size: 1.5rem;
+    font-weight: 600 !important;
+    color: black;
+  }
+  
+  /* Card Text */
+  .career-card-text {
+    font-size: 1rem;
+    color: black;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Spacing Adjustments */
+  @media (max-width: 768px) {
+    .career-title {
+      font-size: 2rem !important;
+    }
+  
+    .career-subtitle {
+      font-size: 1.3rem;
+    }
+  
+    .career-icon {
+      font-size: 2.5rem;
+    }
+  
+    .career-card-title {
+      font-size: 1.5rem !important;
+    }
+  
+    .career-card-text {
+      font-size: 1rem !important;
+    }
+  }
+  

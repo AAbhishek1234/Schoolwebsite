@@ -1,0 +1,110 @@
+/* Apply negative margin to remove the gap between the components */
+@media (max-width: 576px) {
+    .why-choose-container {
+      padding-top: 2rem; /* Default padding */
+    }
+  
+    /* Apply a negative top margin to the container to pull it up */
+    .why-choose-container {
+      margin-top: -2rem !important; /* Adjust this value to reduce the gap */
+    }
+  
+    /* Remove the gap between the rows */
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    /* Apply negative margin on the top of the column if needed */
+    .col {
+      margin-bottom: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-top: -1rem; /* Adjust this to pull columns closer */
+    }
+  
+    /* Remove margin-bottom for the feature card */
+    .feature-card {
+      margin-bottom: 0 !important;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+.feature-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    width: 100%; /* 100% width for better responsive layout */
+    max-width: 320px; /* Increased width for better text fitting */
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px; /* Reduced gap between cards */
+    padding: 20px; /* Added padding to avoid cramped text */
+  }
+  
+  .feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #A8E6CF; /* Light Green background */
+    transition: left 0.3s ease;
+    z-index: 0;
+  }
+  
+  .feature-card:hover::before {
+    left: 0;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #000000 !important; /* Change text color to black on hover */
+  }
+  
+  .feature-card:hover .feature-description {
+    color: #000000 !important; /* Change description text color to black on hover */
+  }
+  
+  .feature-title, .feature-description {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333333; /* Default color */
+  }
+  
+  .feature-description {
+    font-size: 1.2rem;
+    color: #555555; /* Default color */
+    line-height: 1.5;
+    text-align: center; /* Improved line spacing for better readability */
+  }
+  
+  @media (max-width: 576px) {
+    .feature-card {
+      width: 100%;
+      max-width: 100%; /* Full width for mobile devices */
+      margin-bottom: 10px; /* Reduced gap for mobile */
+    }
+  }
+  

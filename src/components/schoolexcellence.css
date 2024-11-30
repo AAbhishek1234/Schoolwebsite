@@ -1,0 +1,47 @@
+/* Container Styling */
+.schools-excellence-container {
+    padding: 3rem 1rem; /* Add padding */
+  }
+  
+  /* Image Column Styling */
+  .schools-excellence-image-column {
+    text-align: center; /* Center-align the image */
+    margin-bottom: 1.5rem; /* Space between rows on small screens */
+  }
+  
+  .schools-excellence-image {
+    border-radius: 10px; /* Rounded corners */
+    max-width: 100%; /* Ensure image stays responsive */
+    height: auto;
+  }
+  
+  /* Text Column Styling */
+  .schools-excellence-text-column {
+    text-align: left; /* Align text to the left */
+  }
+  
+  .schools-excellence-heading {
+    color: black !important; /* Primary blue color */
+    font-weight: bold;
+    font-size: 3rem; /* Large heading size */
+    margin-bottom: 1.5rem;
+  }
+  
+  .schools-excellence-paragraph {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: black !important; /* Dark grey text */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .schools-excellence-heading {
+      font-size: 2rem; /* Reduce heading size on small screens */
+    }
+  
+    .schools-excellence-paragraph {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+  }
+  
