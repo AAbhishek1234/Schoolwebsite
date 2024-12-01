@@ -13,6 +13,7 @@
 
 /* Links */
 .navbar-custom .nav-link-custom {
+    text-decoration: none !important;
     color: black !important;
     padding: 5px 5px !important;
     font-size: 1.3rem;

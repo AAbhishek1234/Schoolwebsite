@@ -1,0 +1,114 @@
+/* Blog Section Styling */
+.zigzag-blog-section {
+  padding: 4rem 2rem;
+  background: #f3f6f9;
+}
+
+.zigzag-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 3rem;
+}
+
+/* Zigzag Layout */
+.zigzag-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  transition: transform 0.3s ease;
+}
+
+.zigzag-row:hover {
+  transform: translateY(-5px);
+}
+
+.zigzag-left .zigzag-image-column {
+  order: 1;
+}
+
+.zigzag-left .zigzag-text-column {
+  order: 2;
+}
+
+.zigzag-right .zigzag-image-column {
+  order: 2;
+}
+
+.zigzag-right .zigzag-text-column {
+  order: 1;
+}
+
+/* Image Styling */
+.zigzag-image {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+}
+
+/* Text Column Styling */
+.zigzag-text-column {
+  text-align: left;
+}
+
+.zigzag-text-wrapper {
+  padding: 1rem 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.zigzag-blog-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.zigzag-blog-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.zigzag-read-more {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.zigzag-read-more:hover {
+  background: linear-gradient(135deg, #0056b3, #003d80);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .zigzag-row {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .zigzag-text-wrapper {
+    text-align: center;
+  }
+
+  .zigzag-blog-title {
+    font-size: 1.5rem;
+  }
+
+  .zigzag-blog-description {
+    font-size: 1rem;
+  }
+
+  .zigzag-read-more {
+    font-size: 0.9rem;
+  }
+}

@@ -9,6 +9,7 @@ import StudentClub from '../components/StudentClub'
 import AboutUs from '../components/AboutUs'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
+
 function Home() {
   return (
     <>

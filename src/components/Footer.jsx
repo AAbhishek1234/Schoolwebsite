@@ -12,7 +12,7 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <footer className="modern-footer py-3">
+    <footer className="modern-footer py-3" id='Footer'>
       <Container>
         <Row className="align-items-center">
           {/* Left Column: Company Info */}
@@ -33,17 +33,17 @@ const Footer = () => {
             <h6 className="footer-links-title">Quick Links</h6>
             <ul className="footer-links">
               <li>
-                <a href="/about-us" className="footer-link">
+                <a href="#about-us" className="footer-link" >
                   About Us
                 </a>
               </li>
               <li>
-                <a href="/contact-us" className="footer-link">
-                  Our Programs
+                <a href="#Footer" className="footer-link" >
+                  Contact Us
                 </a>
               </li>
               <li>
-                <a href="/services" className="footer-link">
+                <a href="#Our-Programs" className="footer-link">
                   Services
                 </a>
               </li>

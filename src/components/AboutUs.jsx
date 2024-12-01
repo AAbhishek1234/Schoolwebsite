@@ -5,7 +5,7 @@ import "./aboutus.css";
 
 const AboutUs = () => {
   return (
-    <Container fluid className="about-us-container py-5">
+    <Container fluid className="about-us-container py-5" id="about-us">
       <Row className="text-center">
         <Col>
           <h2 className="about-us-title mb-4">About Us</h2>
