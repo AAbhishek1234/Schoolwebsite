@@ -1,47 +1,83 @@
 /* Container Styling */
 .schools-excellence-container {
-    padding: 3rem 1rem; /* Add padding */
+  padding: 3rem 1rem;
+}
+
+/* Image Column Styling */
+.schools-excellence-image-column {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.schools-excellence-image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Text Column Styling */
+.schools-excellence-text-column {
+  text-align: left;
+}
+
+.schools-excellence-heading {
+  color: black !important;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.schools-excellence-paragraph {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: black !important;
+}
+
+.schools-excellence-button {
+  display: block;
+  margin: 1.5rem auto;
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Responsive Styles for Mobile View */
+@media (max-width: 768px) {
+  .schools-excellence-row {
+    flex-direction: column; /* Stack the items */
   }
-  
-  /* Image Column Styling */
+
+  .schools-excellence-heading-column {
+    order: 1; /* Heading first */
+    text-align: center;
+  }
+
   .schools-excellence-image-column {
-    text-align: center; /* Center-align the image */
-    margin-bottom: 1.5rem; /* Space between rows on small screens */
+    order: 2; /* Image second */
   }
-  
-  .schools-excellence-image {
-    border-radius: 10px; /* Rounded corners */
-    max-width: 100%; /* Ensure image stays responsive */
-    height: auto;
-  }
-  
-  /* Text Column Styling */
+
   .schools-excellence-text-column {
-    text-align: left; /* Align text to the left */
+    order: 3; /* Text third */
+    text-align: center;
+    margin-top: 1rem;
   }
-  
+
+  .schools-excellence-button-column {
+    order: 4; /* Button last */
+    text-align: center;
+  }
+
   .schools-excellence-heading {
-    color: black !important; /* Primary blue color */
-    font-weight: bold;
-    font-size: 3rem; /* Large heading size */
-    margin-bottom: 1.5rem;
+    font-size: 2rem;
   }
-  
+
   .schools-excellence-paragraph {
-    font-size: 1.3rem;
-    line-height: 1.6;
-    color: black !important; /* Dark grey text */
+    font-size: 1.2rem;
   }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .schools-excellence-heading {
-      font-size: 2rem; /* Reduce heading size on small screens */
-    }
-  
-    .schools-excellence-paragraph {
-      font-size: 1.2rem;
-      line-height: 1.6;
-    }
+  .schools-excellence-container{
+    margin-top: -2rem !important;
   }
-  
+}

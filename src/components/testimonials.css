@@ -38,6 +38,7 @@ html, body {
 .testimonial-card-custom {
   background-color: #ffffff;
   border-radius: 12px;
+  border: 2px solid 		#b0c4de   !important;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -85,6 +86,7 @@ html, body {
   /* Tighten up spacing in mobile */
   .testimonial-carousel-container {
     padding: 20px 5px;
+    margin-top: -3rem !important;
   }
 
   .testimonial-card-custom {

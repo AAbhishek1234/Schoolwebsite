@@ -2,6 +2,7 @@
 .student-club-container {
   font-family: 'Arial', sans-serif;
   color: black !important;
+  margin-top: -2rem;
 }
 
 /* Image styling */
@@ -66,15 +67,15 @@
   }
 
   .student-club-description {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
   }
 
   .student-club-btn {
-    font-size: 1.rem !important;
+    font-size: 1.2rem !important;
     padding: 0.5rem 1rem;
-    width:12rem !important;
-    margin-left: 5.5rem !important;
-
+    width:10rem !important;
+    margin-left: 3.5rem !important;
+margin-top: -1rem !important;
     
   }
 }

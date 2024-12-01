@@ -93,7 +93,7 @@ const HeroSection = () => {
                 className="hover-button"
               size="lg"
               style={{
-                backgroundColor: "#CD5C5C",
+                backgroundColor:" #E34234",
                 border: "none",
                 width: "9rem",
                 marginTop: "2rem",

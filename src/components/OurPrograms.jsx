@@ -31,7 +31,7 @@ const OurPrograms = () => {
   ];
 
   return (
-    <Container className="career-container my-5">
+    <Container className="career-container my-4">
       <h1 className="career-title text-center">Our Programs</h1>
       <p className="career-subtitle text-center">
       We aim to empower students to make informed decisions about their academic journey, personal growth, and future career paths. 

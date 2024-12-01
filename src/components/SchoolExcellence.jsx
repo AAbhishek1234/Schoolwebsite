@@ -1,12 +1,19 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import './schoolexcellence.css'; // Import the external CSS
 
 const SchoolsExcellence = () => {
   return (
     <Container fluid className="schools-excellence-container">
-      <Row className="align-items-center">
-        {/* Left Column: Image */}
+      <Row className="align-items-center schools-excellence-row">
+        {/* Heading */}
+        <Col xs={12} className="schools-excellence-heading-column">
+          <h2 className="schools-excellence-heading">
+            Schools Excellence
+          </h2>
+        </Col>
+
+        {/* Image */}
         <Col xs={12} md={6} className="schools-excellence-image-column">
           <Image 
             src="/Images/scl.png" // Replace with your image URL
@@ -16,11 +23,8 @@ const SchoolsExcellence = () => {
           />
         </Col>
         
-        {/* Right Column: Text */}
+        {/* Paragraph */}
         <Col xs={12} md={6} className="schools-excellence-text-column">
-          <h2 className="schools-excellence-heading">
-            Schools Excellence
-          </h2>
           <p className="schools-excellence-paragraph">
             At Schools Excellence, we aim to provide a high standard of education 
             that fosters intellectual, social, and emotional development. Our 
@@ -30,6 +34,9 @@ const SchoolsExcellence = () => {
             every child thrives in a positive and inclusive environment.
           </p>
         </Col>
+
+        {/* Button */}
+     
       </Row>
     </Container>
   );

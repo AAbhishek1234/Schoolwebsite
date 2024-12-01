@@ -41,7 +41,7 @@
 
 .feature-card {
     background: #ffffff;
-    border: 1px solid #e0e0e0;
+    border: 2px solid #FFDAB9; 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
@@ -62,7 +62,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #A8E6CF; /* Light Green background */
+     /* background-color: #A8E6CF;Light Green background */
     transition: left 0.3s ease;
     z-index: 0;
   }
@@ -108,3 +108,4 @@
     }
   }
   
+ 

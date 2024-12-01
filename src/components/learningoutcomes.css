@@ -59,7 +59,7 @@
   /* Mobile and smaller screens */
   @media (max-width: 576px) {
     .learning-title {
-      font-size: 2.2rem !important; /* Further reduce size for smaller screens */
+      font-size: 2rem !important; /* Further reduce size for smaller screens */
       margin-top: -1rem !important; /* Ensure proper spacing */
     }
   }
