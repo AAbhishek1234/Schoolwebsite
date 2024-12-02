@@ -84,6 +84,9 @@
     color: #ffffff;
     margin-bottom: 6px;
   }
+  .footer-bottom-text{
+    margin-top: -2rem !important;
+  }
   
   .footer-links {
     list-style-type: none;
