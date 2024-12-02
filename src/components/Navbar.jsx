@@ -6,14 +6,20 @@ import './navbar.css';
 const MyNavbar = () => {
   const navbarHeight = window.innerWidth < 768 ? 60 : 80; 
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <Navbar expand="lg" fixed="top" className="navbar-custom">
       <Container>
         <Navbar.Brand
+          onClick={scrollToTop} // Scroll to top on click
           style={{
             color: 'black',
             fontFamily:
               "'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif",
+            cursor: 'pointer', // Make it clear it's clickable
           }}
         >
           School
