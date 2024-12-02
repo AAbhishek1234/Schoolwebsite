@@ -1,11 +1,10 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-scroll'; // Import from react-scroll
-import './navbar.css'; // Ensure this contains the updated styles
+import { Link } from 'react-scroll'; 
+import './navbar.css'; 
 
 const MyNavbar = () => {
-  // Set a default navbar height and adjust for mobile views
-  const navbarHeight = window.innerWidth < 768 ? 60 : 80; // Adjust for smaller screen height
+  const navbarHeight = window.innerWidth < 768 ? 60 : 80; 
 
   return (
     <Navbar expand="lg" fixed="top" className="navbar-custom">

@@ -12,18 +12,18 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <footer className="modern-footer py-3" id='Footer'>
+    <footer className="modern-footer py-3" id="Footer">
       <Container>
         <Row className="align-items-center">
-          {/* Left Column: Company Info */}
           <Col xs={12} md={4} className="text-center text-md-start">
             <h3 className="footer-logo">School</h3>
             <p className="footer-text">
-              Bringing solutions that matter. Follow us on social media for updates and offers.
+              Bringing solutions that matter.  We provide expert counseling, 
+              personalized guidance, and resources to shape a bright future.
             </p>
             <p className="footer-text">
               <strong>Email:</strong> support@yourcompany.com <br />
-              <strong>Phone:</strong> +1-234-567-890 <br />
+              <strong>Phone:</strong> +91 9717024896 <br />
               <strong>Location:</strong> Faridabad
             </p>
           </Col>
@@ -33,18 +33,23 @@ const Footer = () => {
             <h6 className="footer-links-title">Quick Links</h6>
             <ul className="footer-links">
               <li>
-                <a href="#about-us" className="footer-link" >
-                  About Us
+                <a href="/" className="footer-link">
+                  Home
                 </a>
               </li>
               <li>
-                <a href="#Footer" className="footer-link" >
-                  Contact Us
+                <a href="#about-us" className="footer-link">
+                  About Us
                 </a>
               </li>
               <li>
                 <a href="#Our-Programs" className="footer-link">
                   Services
+                </a>
+              </li>
+              <li>
+                <a href="#Footer" className="footer-link">
+                  Contact Us
                 </a>
               </li>
             </ul>
