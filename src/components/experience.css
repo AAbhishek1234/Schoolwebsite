@@ -1,0 +1,54 @@
+/* General Styles */
+.exp-py-5 {
+  margin-top: 1rem !important;
+}
+
+.hero-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image {
+  border-radius: 15px;
+  width: 110% !important;
+  height: 21rem !important;
+  position: relative !important;
+}
+
+/* Highlighted Text */
+.highlight {
+  color: #ffa500;
+}
+
+/* Custom Paragraph Styling */
+.custom-paragraph {
+  color: black !important; /* Force black color */
+  font-size: 1.4rem; /* Optional: adjust font size */
+  line-height: 1.4; /* Optional: improve readability */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-image {
+    margin-bottom: 1rem !important;
+    height: 15rem !important;
+  }
+
+  .text-md-start {
+    text-align: center !important;
+  }
+
+  .exp-py-5 {
+    margin-top: -3rem !important;
+  }
+
+  .rounded-pill {
+    height: 3rem !important;
+    width: 11rem !important;
+    margin-top: -5rem !important;
+  }
+
+  .custom-paragraph {
+    font-size: 1.2rem !important; /* Optional: smaller text for mobile */
+  }
+}

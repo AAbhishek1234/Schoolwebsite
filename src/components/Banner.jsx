@@ -72,11 +72,11 @@ const HeroSection = () => {
       <Row className="align-items-center">
         {/* Text and Image Section for Mobile */}
         <Col md={6} className="text-center text-md-start mobile-flex">
-          <h1 className="fw-bold" >Welcome To School</h1>
+          <h1 className="fw-bold" >Welcome To Tathastu</h1>
           <h2 className="fw-light">Bridge the Gap Between Learning and Growth.</h2>
           <div className="hero-image-container d-block d-md-none">
             <Image
-              src="/Images/port.jpg"
+              src="/Images/young-student.jpg"
               alt="Learning Hero"
               fluid
               rounded
@@ -108,7 +108,7 @@ const HeroSection = () => {
         <Col md={6} className="text-center d-none d-md-block">
           <div className="position-relative hero-image-container">
             <Image
-              src="/Images/port.jpg"
+              src="/Images/young-student.jpg"
               alt="Learning Hero"
               fluid
               rounded

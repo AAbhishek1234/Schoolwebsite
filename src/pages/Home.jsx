@@ -9,6 +9,8 @@ import StudentClub from '../components/StudentClub'
 import AboutUs from '../components/AboutUs'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
+import Experience from '../components/Experience'
+import Gallery from '../components/Gallery'
 
 function Home() {
   return (
@@ -22,6 +24,8 @@ function Home() {
     <LearningOutcomes></LearningOutcomes>
     <StudentClub></StudentClub>
     <AboutUs></AboutUs>
+    <Experience></Experience>
+    <Gallery></Gallery>
     <Testimonials></Testimonials>
     <Footer></Footer>
     </>

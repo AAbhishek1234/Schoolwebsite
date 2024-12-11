@@ -6,7 +6,7 @@
   
     /* Apply a negative top margin to the container to pull it up */
     .why-choose-container {
-      margin-top: -2rem !important; /* Adjust this value to reduce the gap */
+      margin-top: -1rem !important; /* Adjust this value to reduce the gap */
     }
   
     /* Remove the gap between the rows */

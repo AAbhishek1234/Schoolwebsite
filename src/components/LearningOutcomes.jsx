@@ -32,7 +32,7 @@ const LearningOutcomes = () => {
 
   return (
     <Container fluid className="learning-outcomes py-4">
-      <h1 className="learning-title text-start mb-4 fw-bold" style={{color:"black"}}>Learning Outcomes</h1>
+      <h1 className="learning-title text-start mb-4 " style={{color:"black"}}>Learning Outcomes</h1>
       <Row className="g-4">
         {videos.map((video) => (
           <Col

@@ -1,12 +1,15 @@
 /* Container Styles */
-.career-container {
+
+body {
+  font-family: 'Roboto', sans-serif !important; /* Example: Use Roboto */
+}
+/* .career-container {
     font-family: 'Arial', sans-serif;
-  }
+  } */
   
   /* Title and Subtitle Styles */
   .career-title {
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 2.5rem;
     color: black !important;
     margin-top: -3rem !important;
   }

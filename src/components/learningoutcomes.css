@@ -1,4 +1,9 @@
 /* Base styles for Learning Outcomes */
+body {
+  font-family: 'Roboto', sans-serif !important; /* Example: Use Roboto */
+}
+
+
 .learning-outcomes {
     margin-top: 2rem; /* Default spacing for desktop view */
     padding-top: 2rem; /* Default padding */
@@ -7,7 +12,7 @@
 /* Mobile and smaller screens */
 @media (max-width: 576px) {
     .learning-outcomes {
-        margin-top: -4rem !important; /* Reduce gap between this and the previous component */
+        margin-top: -2rem !important; /* Reduce gap between this and the previous component */
         padding-top: 0.5rem; /* Optional: reduce internal spacing */
     }
 }

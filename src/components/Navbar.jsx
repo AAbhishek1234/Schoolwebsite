@@ -22,7 +22,7 @@ const MyNavbar = () => {
             cursor: 'pointer', // Make it clear it's clickable
           }}
         >
-          School
+          Tathastu
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" className="custom-toggler" />
         <Navbar.Collapse id="navbar-nav">

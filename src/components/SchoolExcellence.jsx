@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import './schoolexcellence.css'; // Import the external CSS
 
 const SchoolsExcellence = () => {
@@ -8,15 +8,15 @@ const SchoolsExcellence = () => {
       <Row className="align-items-center schools-excellence-row">
         {/* Heading */}
         <Col xs={12} className="schools-excellence-heading-column">
-          <h2 className="schools-excellence-heading">
+          <h1 className="schools-excellence-heading" style={{fontSize:"2.5rem"}}>
             Schools Excellence
-          </h2>
+          </h1>
         </Col>
 
         {/* Image */}
         <Col xs={12} md={6} className="schools-excellence-image-column">
           <Image 
-            src="/Images/scl.png" // Replace with your image URL
+            src="/Images/sce.jpg" // Replace with your image URL
             alt="School Excellence" 
             fluid 
             className="schools-excellence-image"

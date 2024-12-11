@@ -19,7 +19,7 @@ html, body {
   padding: 40px 0;
   border-radius: 12px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  margin-top: -3rem;
+  margin-top: -1rem !important;
   width: 100%; /* Ensure full width */
   max-width: 100%; /* Avoid overflow */
   overflow-x: hidden; /* Hide horizontal overflow */
@@ -86,7 +86,7 @@ html, body {
   /* Tighten up spacing in mobile */
   .testimonial-carousel-container {
     padding: 20px 5px;
-    margin-top: -3rem !important;
+    margin-top: -1rem !important;
   }
 
   .testimonial-card-custom {

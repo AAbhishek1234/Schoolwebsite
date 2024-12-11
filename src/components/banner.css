@@ -1,4 +1,10 @@
 /* Mobile View CSS */
+body {
+  font-family: 'Roboto', sans-serif !important; /* Example: Use Roboto */
+}
+
+
+
 @media (max-width: 768px) {
     /* Adjust the container padding for mobile */
     .container-fluid {
@@ -61,8 +67,8 @@
 }
 
 .hero-image-container img:hover {
-  transform: scale(1.1); /* Slightly zooms in the image */
-  filter: brightness(1.2) contrast(1.1); /* Enhances brightness and contrast */
+   /* Slightly zooms in the image */
+/* Enhances brightness and contrast */
   border-radius: 12px; /* Makes the hover feel smoother */
 }
 
@@ -76,3 +82,7 @@
 .hover-button {
   transition: transform 0.3s ease;
 }
+
+
+
+

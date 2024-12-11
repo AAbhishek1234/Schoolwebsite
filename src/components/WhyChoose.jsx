@@ -48,17 +48,17 @@ import "./whychoose.css";
 
 const WhyChoose = () => {
   const features = [
-    { title: "Expert Guidance", description: "Professional advice tailored to your goals.there are so many schools.why we chooe you" },
-    { title: "Personalized Plans", description: "Customized counseling for every student." },
-    { title: "Proven Success", description: "Track record of exceptional results." },
-    { title: "Compassionate Support", description: "We care about your emotional well-being." },
-    { title: "Career Focused", description: "Helping you achieve your career aspirations." },
-    { title: "Affordable Services", description: "Quality guidance within your budget.there is computer sciencw bathch to the dsddv" },
+    { title: "School Admissions", description: "Professional advice tailored to your goals.there are so many schools.why we chooe you" },
+    { title: "Websites", description: "Customized counseling for every student." },
+    { title: "Social Media Management", description: "Track record of exceptional results." },
+    { title: "School Management Software", description: "We care about your emotional well-being." },
+    { title: "Academic Improvement Programs", description: "Helping you achieve your career aspirations." },
+    { title: "Skill Development Programs", description: "Quality guidance within your budget.there is computer sciencw bathch to the dsddv" },
   ];
 
   return (
-    <Container fluid className="why-choose-container py-4" style={{ backgroundColor: "#f8f9fa" }}>
-      <h1 className="text-center mb-4 fw-bold">Why Choose Us?</h1>
+    <Container fluid className="why-choose-container py-4" id='Our-Programs' style={{ backgroundColor: "#f8f9fa" }}>
+      <h1 className="text-center mb-4 " style={{fontSize:"2.5rem",color:"black"}}>Our Services</h1>
       <Row>
         {features.map((feature, index) => (
           <Col key={index} xs={12} sm={6} md={4} className="d-flex justify-content-center my-3">
