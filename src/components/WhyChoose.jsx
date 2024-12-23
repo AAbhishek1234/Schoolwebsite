@@ -52,8 +52,8 @@ const WhyChoose = () => {
     { title: "Websites", description: "Customized counseling for every student." },
     { title: "Social Media Management", description: "Track record of exceptional results." },
     { title: "School Management Software", description: "We care about your emotional well-being." },
-    { title: "Academic Improvement Programs", description: "Helping you achieve your career aspirations." },
-    { title: "Skill Development Programs", description: "Quality guidance within your budget.there is computer sciencw bathch to the dsddv" },
+    { title: "Setup SmartClass Room", description: "Helping you achieve your career aspirations." },
+    { title: "Academic Improvement Programs", description: "Quality guidance within your budget.there is computer sciencw bathch to the dsddv" },
   ];
 
   return (
