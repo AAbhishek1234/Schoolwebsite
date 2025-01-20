@@ -11,7 +11,7 @@ import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
 import Experience from '../components/Experience'
 import Gallery from '../components/Gallery'
-
+//import Test from '../components/Test'
 function Home() {
   return (
     <>
@@ -28,6 +28,7 @@ function Home() {
     <Gallery></Gallery>
     <Testimonials></Testimonials>
     <Footer></Footer>
+  
     </>
   )
 }

@@ -70,7 +70,6 @@
 
 
 
-
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -87,7 +86,7 @@ const HeroSection = () => {
         <Col md={6} className="text-center text-md-start mobile-flex">
           <h1 className="fw-bold">Welcome To Tathastu</h1>
           <h2 className="fw-light">Bridge the Gap Between Learning and Growth.</h2>
-          
+
           {/* Mobile Image Section */}
           <div className="hero-image-container d-block d-md-none">
             <LazyLoadImage
@@ -97,8 +96,8 @@ const HeroSection = () => {
               placeholderSrc="/Images/young-student-placeholder.jpg" // Low-res placeholder
               className="mb-3"
               style={{ width: "100%", marginTop: "1.5rem", borderRadius: "0.25rem" }}
-              threshold={100} // Starts loading 100px before entering the viewport
-              visibleByDefault={true} // Loads immediately for above-the-fold images
+              threshold={50} // Starts loading earlier (less delay)
+              visibleByDefault={true} // Ensures image loads sooner
             />
           </div>
           <p className="secondary-h2" style={{ fontSize: "1.6rem" }}>
@@ -135,8 +134,8 @@ const HeroSection = () => {
                 marginTop: "4.2rem",
                 borderRadius: "0.25rem",
               }}
-              threshold={100} // Starts loading 100px before entering the viewport
-              visibleByDefault={true} // Loads immediately for above-the-fold images
+              threshold={50} // Starts loading earlier (less delay)
+              visibleByDefault={true} // Ensures image loads sooner
             />
           </div>
         </Col>
