@@ -80,7 +80,9 @@ const HeroSection = () => {
               alt="Learning Hero"
               fluid
               rounded
+              loading="lazy" 
               className="mb-3"
+              
               style={{ marginTop: "1.5rem" }}
             />
           </div>
@@ -97,6 +99,7 @@ const HeroSection = () => {
                 border: "none",
                 width: "9rem",
                 marginTop: "2rem",
+                
               }}
             >
               Join Us
@@ -112,6 +115,7 @@ const HeroSection = () => {
               alt="Learning Hero"
               fluid
               rounded
+              loading="lazy" 
               className="mb-3"
               style={{ marginTop: "4.2rem" }}
             />

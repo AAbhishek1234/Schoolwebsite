@@ -17,6 +17,7 @@ const HeroSection = () => {
           <Image
             src="/Images/teamwithsolution.jpg"
             alt="Student Hero"
+            loading="lazy" 
             fluid
             rounded
             className="hero-image"

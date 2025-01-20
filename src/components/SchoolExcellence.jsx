@@ -18,6 +18,7 @@ const SchoolsExcellence = () => {
           <Image 
             src="/Images/sce.jpg" // Replace with your image URL
             alt="School Excellence" 
+            loading="lazy" 
             fluid 
             className="schools-excellence-image"
           />

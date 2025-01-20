@@ -10,22 +10,22 @@ const Gallery = () => {
       </h1>
       <Row className="g-4">
         <Col xs={12} sm={6} md={4}>
-          <Image src="/Images/child1.jpg" alt="Event 1" fluid rounded />
+          <Image src="/Images/child1.jpg" alt="Event 1" fluid rounded loading="lazy"  />
         </Col>
         <Col xs={12} sm={6} md={4}>
-          <Image src="/Images/child2.jpg" alt="Event 2" fluid rounded />
+          <Image src="/Images/child2.jpg" alt="Event 2" fluid rounded  loading="lazy" />
         </Col>
         <Col xs={12} sm={6} md={4}>
-          <Image src="/Images/child3.jpg" alt="Event 3" fluid rounded />
+          <Image src="/Images/child3.jpg" alt="Event 3" fluid rounded loading="lazy" />
         </Col>
         <Col xs={12} sm={6} md={4}>
-          <Image src="/Images/child4.jpg" alt="Event 4" fluid rounded />
+          <Image src="/Images/child4.jpg" alt="Event 4" fluid rounded loading="lazy"  />
         </Col>
         <Col xs={12} sm={6} md={4}>
-          <Image src="/Images/child1.jpg" alt="Event 5" fluid rounded />
+          <Image src="/Images/child1.jpg" alt="Event 5" fluid rounded loading="lazy" />
         </Col>
         <Col xs={12} sm={6} md={4}>
-          <Image src="/Images/child2.jpg" alt="Event 6" fluid rounded />
+          <Image src="/Images/child2.jpg" alt="Event 6" fluid rounded loading="lazy" />
         </Col>
       </Row>
     </Container>

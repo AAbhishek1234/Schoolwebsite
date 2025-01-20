@@ -12,6 +12,7 @@ const StudentClub = () => {
             <img
               src="/Images/grpstudents.png"
               alt="Group of Students"
+              loading="lazy" 
               className="student-club-image img-fluid"
             />
           </Col>
